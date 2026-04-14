@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.main-header {
+    background-color: #1f5d8f;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.nav-buttons a {
+    background-color: #00a3e0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #007bb5;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.header {
+    font-size: 32px;
+    color: #1f5d8f;
+    margin-bottom: 20px;
+}
+
+.element-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    text-align: center;
+    padding: 15px;
+    font-weight: 500;
+}
+
+th {
+    background-color: #00a3e0;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.item-img img {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.buy-button {
+    background-color: #00a3e0;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.buy-button:hover {
+    background-color: #007bb5;
+}
+
+.main-footer {
+    background-color: #1f5d8f;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.video-container video{
+    border-radius: 20px;
+}
